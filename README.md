@@ -114,9 +114,8 @@ By studying this project, you'll understand:
 	☐︎	Integration with Slack, Teams, Outlook
 
 ## ✍️ Author
-Samuel | Data Scientist & AI Engineer
-
-Building end-to-end AI projects for production.
+*Samuel | Data Scientist & AI Engineer*
+**Building end-to-end AI projects for production.**
 
 ## 🙏 Acknowledgments
 	•	IBM Skills Network for the hands-on lab structure
