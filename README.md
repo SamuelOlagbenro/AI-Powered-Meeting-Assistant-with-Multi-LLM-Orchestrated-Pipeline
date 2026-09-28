@@ -115,6 +115,7 @@ By studying this project, you'll understand:
 
 ## ✍️ Author
 Samuel | Data Scientist & AI Engineer
+
 Building end-to-end AI projects for production.
 
 ## 🙏 Acknowledgments
