@@ -13,7 +13,7 @@ A production-ready application that transcribes meeting audio, corrects financia
 
 ## 🎯 Project Highlights
 # What it does:
-	•	Transcribes meeting audio with 99%+ confidence using OpenAI Whisper (medium model)
+	•	Transcribes meeting audio with 90% confidence using OpenAI Whisper (medium model)
 	•	Intelligently corrects financial terminology (e.g., "401k" → "401(k) retirement savings plan")
 	•	Generates structured meeting minutes and prioritized task lists with assignees and deadlines
 	•	Provides downloadable text artifacts for immediate use
