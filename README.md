@@ -8,7 +8,7 @@
 ![OpenAI Whisper](https://img.shields.io/badge/OpenAI%20Whisper-Latest-blueviolet?logo=openai&logoColor=white)
 ![Llama](https://img.shields.io/badge/Meta%20Llama-3.2-red?logoColor=white)
 ![License](https://img.shields.io/badge/License-Apache%202.0-green?logoColor=white)
-![Production Ready](https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge)
+![Production Ready](https://img.shields.io/badge/Production%20Ready-Yes-success?style=for-the-badge)
 
 A production-ready application that transcribes meeting audio, corrects financial terminology, and generates structured meeting minutes and actionable task lists using multiple large language models in orchestrated sequence
 
@@ -96,3 +96,31 @@ By studying this project, you'll understand:
 	4.	Production Patterns: Text cleanup, error handling, file I/O, user interfaces
 	5.	Model Selection: Tradeoffs between model size, speed, and accuracy for specific tasks
 	6.	Domain Knowledge: Financial terminology and structured output formatting
+
+## 🚀 Future Enhancements
+ ### Short-term:
+	☐︎	Add speaker diarization (who said what)
+	☐︎	Export to PDF with formatting
+	☐︎	Batch processing for multiple files
+	☐︎	API endpoint (FastAPI) instead of Gradio UI
+### Medium-term:
+	☐︎	Integrate RAG for company-specific context
+	☐︎	Add memory/state management for multi-meeting summaries
+	☐︎	Fine-tune Granite on internal meeting styles
+	☐︎	Real-time transcription (streaming WebSocket)
+### Long-term:
+	☐︎	Multi-language support
+	☐︎	Video meeting processing (transcript + visual slides)
+	☐︎	Sentiment analysis & decision tracking
+	☐︎	Integration with Slack, Teams, Outlook
+
+## ✍️ Author
+Samuel | Data Scientist & AI Engineer
+Building end-to-end AI projects for production.
+
+## 🙏 Acknowledgments
+	•	IBM Skills Network for the hands-on lab structure
+	•	Hailey Quach (original author)
+	•	OpenAI for Whisper
+	•	Meta for Llama
+	•	IBM for Granite and Watsonx platform
