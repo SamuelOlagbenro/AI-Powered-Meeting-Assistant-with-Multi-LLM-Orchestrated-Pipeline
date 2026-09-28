@@ -8,4 +8,5 @@
 ![OpenAI Whisper](https://img.shields.io/badge/OpenAI%20Whisper-Latest-blueviolet?logo=openai&logoColor=white)
 ![Llama](https://img.shields.io/badge/Meta%20Llama-3.2-red?logoColor=white)
 ![License](https://img.shields.io/badge/License-Apache%202.0-green?logoColor=white)
+![Meta Llama](https://img.shields.io/badge/Meta%20Llama-3.2-red?logoColor=white&style=flat-square)
 Al-Powered Meeting Assistant with Multi-LLM Orchestration - Transcribes meeting audio with OpenAI Whisper, cleans terminology with Meta Llama 3.2, and generates structured minutes and task lists using IBM Granite, all orchestrated by LangChain and served through a Gradio web interface.
