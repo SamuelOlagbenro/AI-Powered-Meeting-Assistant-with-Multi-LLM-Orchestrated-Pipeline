@@ -11,19 +11,19 @@
 
 A production-ready application that transcribes meeting audio, corrects financial terminology, and generates structured meeting minutes and actionable task lists using multiple large language models in orchestrated sequence
 
-🎯 Project Highlights
-What it does:
+## 🎯 Project Highlights
+# What it does:
 	•	Transcribes meeting audio with 99%+ confidence using OpenAI Whisper (medium model)
 	•	Intelligently corrects financial terminology (e.g., "401k" → "401(k) retirement savings plan")
 	•	Generates structured meeting minutes and prioritized task lists with assignees and deadlines
 	•	Provides downloadable text artifacts for immediate use
-Why it matters:
+# Why it matters:
 	•	Saves 30+ minutes of manual note-taking per meeting
 	•	Prevents ambiguous financial terminology from reaching stakeholders
 	•	Extracts actionable items that would otherwise get lost in recordings
 	•	Demonstrates production-grade LLM orchestration and prompt engineering
-Technology Stack:
-	•	Speech-to-Text: OpenAI Whisper (transformers)
+# Technology Stack:
+	•	**Speech-to-Text**: OpenAI Whisper (transformers)
 	•	LLM Orchestration: IBM Watsonx Granite + Llama 3.2 Vision
 	•	Prompt Engineering: LangChain (PromptTemplate, LLMChain)
 	•	Web Interface: Gradio
