@@ -8,7 +8,6 @@
 ![OpenAI Whisper](https://img.shields.io/badge/OpenAI%20Whisper-Latest-blueviolet?logo=openai&logoColor=white)
 ![Llama](https://img.shields.io/badge/Meta%20Llama-3.2-red?logoColor=white)
 ![License](https://img.shields.io/badge/License-Apache%202.0-green?logoColor=white)
-![Production Ready](https://img.shields.io/badge/Production%20Ready-Yes-success?style=for-the-badge)
 
 A production-ready application that transcribes meeting audio, corrects financial terminology, and generates structured meeting minutes and actionable task lists using multiple large language models in orchestrated sequence
 
