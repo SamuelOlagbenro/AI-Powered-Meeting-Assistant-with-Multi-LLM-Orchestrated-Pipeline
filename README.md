@@ -9,7 +9,7 @@
 ![Llama](https://img.shields.io/badge/Meta%20Llama-3.2-red?logoColor=white)
 ![License](https://img.shields.io/badge/License-Apache%202.0-green?logoColor=white)
 
-A production-ready application that transcribes meeting audio, corrects financial terminology, and generates structured meeting minutes and actionable task lists using multiple large language models in orchestrated sequence
+An AI-Powered application that transcribes meeting audio, corrects financial terminology, and generates structured meeting minutes and actionable task lists using multiple large language models in orchestrated sequence
 
 # 🎯 Project Highlights
 ## What it does:
