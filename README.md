@@ -8,21 +8,22 @@
 ![OpenAI Whisper](https://img.shields.io/badge/OpenAI%20Whisper-Latest-blueviolet?logo=openai&logoColor=white)
 ![Llama](https://img.shields.io/badge/Meta%20Llama-3.2-red?logoColor=white)
 ![License](https://img.shields.io/badge/License-Apache%202.0-green?logoColor=white)
+![Production Ready](https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge)
 
 A production-ready application that transcribes meeting audio, corrects financial terminology, and generates structured meeting minutes and actionable task lists using multiple large language models in orchestrated sequence
 
-## 🎯 Project Highlights
-# What it does:
+# 🎯 Project Highlights
+## What it does:
 	•	Transcribes meeting audio with 90% confidence using OpenAI Whisper (medium model)
 	•	Intelligently corrects financial terminology (e.g., "401k" → "401(k) retirement savings plan")
 	•	Generates structured meeting minutes and prioritized task lists with assignees and deadlines
 	•	Provides downloadable text artifacts for immediate use
-# Why it matters:
+## Why it matters:
 	•	Saves 30+ minutes of manual note-taking per meeting
 	•	Prevents ambiguous financial terminology from reaching stakeholders
 	•	Extracts actionable items that would otherwise get lost in recordings
 	•	Demonstrates production-grade LLM orchestration and prompt engineering
-# Technology Stack:
+## Technology Stack:
 	•	**Speech-to-Text**: OpenAI Whisper (transformers)
 	•	LLM Orchestration: IBM Watsonx Granite + Llama 3.2 Vision
 	•	Prompt Engineering: LangChain (PromptTemplate, LLMChain)
@@ -87,3 +88,11 @@ Python 3.8+
 CUDA-capable GPU (recommended for faster inference)
 IBMid with access to Watsonx (credentials handled by environment)
 ```
+## 🧠 Key Learning Outcomes
+By studying this project, you'll understand:
+	1.	LLM Orchestration: How to chain multiple models for complex workflows
+	2.	Prompt Engineering: Writing system prompts that guide model behavior and handle ambiguity (e.g., context-aware acronym resolution)
+	3.	LangChain Abstractions: Using PromptTemplate, LLMChain, and RunnablePassthrough for modularity
+	4.	Production Patterns: Text cleanup, error handling, file I/O, user interfaces
+	5.	Model Selection: Tradeoffs between model size, speed, and accuracy for specific tasks
+	6.	Domain Knowledge: Financial terminology and structured output formatting
